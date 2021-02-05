@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="279" height="187" view_box="0 0 279 187"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Fri, 05 Feb 2021 00:51:45</desc>
+
+<rect id="frame" x="0" y="0" width="279" height="187" fill="#f5f5f5" stroke="none" stroke-width="0"/>
+
+<!-- Association BELONGS_TO -->
+<line x1="221" y1="51" x2="221" y2="144" stroke="#35978f" stroke-width="2"/>
+<text x="226.0" y="110" fill="#8c510a" font-family="Verdana" font-size="12">1,1</text>
+<line x1="117" y1="144" x2="221" y2="144" stroke="#35978f" stroke-width="2"/>
+<text x="145" y="161.0" fill="#8c510a" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-BELONGS_TO">
+	<path d="M 256 119 a 14 14 90 0 1 14 14 V 144 h -98 V 133 a 14 14 90 0 1 14 -14" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+	<path d="M 270 144.0 v 11 a 14 14 90 0 1 -14 14 H 186 a 14 14 90 0 1 -14 -14 V 144.0 H 98" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+	<rect x="172" y="119" width="98" height="50" fill="none" rx="14" stroke="#35978f" stroke-width="2"/>
+	<line x1="172" y1="144" x2="270" y2="144" stroke="#35978f" stroke-width="1"/>
+	<text x="179" y="136.7" fill="#000000" font-family="Verdana" font-size="12">BELONGS_TO</text>
+</g>
+
+<!-- Association HAS -->
+<line x1="37" y1="51" x2="117" y2="51" stroke="#35978f" stroke-width="2"/>
+<text x="70" y="68.0" fill="#8c510a" font-family="Verdana" font-size="12">0,N</text>
+<line x1="221" y1="51" x2="117" y2="51" stroke="#35978f" stroke-width="2"/>
+<text x="171" y="68.0" fill="#8c510a" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-HAS">
+	<path d="M 123 26 a 14 14 90 0 1 14 14 V 51 h -40 V 40 a 14 14 90 0 1 14 -14" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+	<path d="M 137 51.0 v 11 a 14 14 90 0 1 -14 14 H 111 a 14 14 90 0 1 -14 -14 V 51.0 H 40" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+	<rect x="97" y="26" width="40" height="50" fill="none" rx="14" stroke="#35978f" stroke-width="2"/>
+	<line x1="97" y1="51" x2="137" y2="51" stroke="#35978f" stroke-width="1"/>
+	<text x="104" y="43.7" fill="#000000" font-family="Verdana" font-size="12">HAS</text>
+</g>
+
+<!-- Entity list -->
+<g id="entity-list">
+	<g id="frame-list">
+		<rect x="94" y="110" width="46" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<rect x="94" y="135.0" width="46" height="43" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="94" y="110" width="46" height="68" fill="none" stroke="#bf812d" stroke-width="2"/>
+		<line x1="94" y1="135" x2="140" y2="135" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="107" y="127.7" fill="#000000" font-family="Verdana" font-size="12">list</text>
+	<text x="99" y="152.8" fill="#000000" font-family="Verdana" font-size="12">name</text>
+	<line x1="99" y1="155" x2="134" y2="155" stroke="#000000" stroke-width="1"/>
+	<text x="99" y="169.8" fill="#000000" font-family="Verdana" font-size="12">order</text>
+</g>
+
+<!-- Entity card -->
+<g id="entity-card">
+	<g id="frame-card">
+		<rect x="198" y="9" width="46" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<rect x="198" y="34.0" width="46" height="59" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="198" y="9" width="46" height="84" fill="none" stroke="#bf812d" stroke-width="2"/>
+		<line x1="198" y1="34" x2="244" y2="34" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="207" y="26.7" fill="#000000" font-family="Verdana" font-size="12">card</text>
+	<text x="203" y="51.8" fill="#000000" font-family="Verdana" font-size="12">name</text>
+	<line x1="203" y1="54" x2="238" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="203" y="68.8" fill="#000000" font-family="Verdana" font-size="12">order</text>
+	<text x="203" y="85.8" fill="#000000" font-family="Verdana" font-size="12">color</text>
+</g>
+
+<!-- Entity label -->
+<g id="entity-label">
+	<g id="frame-label">
+		<rect x="9" y="17" width="56" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<rect x="9" y="42.0" width="56" height="43" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="9" y="17" width="56" height="68" fill="none" stroke="#bf812d" stroke-width="2"/>
+		<line x1="9" y1="42" x2="65" y2="42" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="22" y="34.7" fill="#000000" font-family="Verdana" font-size="12">label</text>
+	<text x="14" y="59.8" fill="#000000" font-family="Verdana" font-size="12">name</text>
+	<line x1="14" y1="62" x2="49" y2="62" stroke="#000000" stroke-width="1"/>
+	<text x="14" y="76.8" fill="#000000" font-family="Verdana" font-size="12">couleur</text>
+</g>
+</svg>
