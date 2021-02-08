@@ -1,6 +1,6 @@
 label: name, couleur
 HAS, 0N label, 0N card
-card: name, order, color
+card: name, content, order, color
 
 :
 list: name, order
