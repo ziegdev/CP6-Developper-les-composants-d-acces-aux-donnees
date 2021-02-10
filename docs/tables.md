@@ -7,7 +7,6 @@ label:
     
 card:
     id: INTEGER PRIMARY KEY
-    name: TEXT
     content: TEXT
     position: INTEGER(anciennement order)
     color: TEXT

@@ -4,8 +4,8 @@ const sequelize = require('../sequelize');
 class Card extends Model {};
 
 Card.init({
-    name: DataTypes.TEXT,
     content: DataTypes.TEXT,
+    color: DataTypes.TEXT,
     position: DataTypes.INTEGER,
     list_id: DataTypes.INTEGER,
 }, {

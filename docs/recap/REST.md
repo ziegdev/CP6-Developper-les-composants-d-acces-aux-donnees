@@ -5,7 +5,10 @@ https://restfulapi.net
 
 API RESTful = une API qui respecte le style d'architecture REST
 
-HTTP + CRUD = Elle sera "RESTful"
+HTTP + CRUD = Elle sera "REST"
+
+API RESTful: API http qui respecte strictement le protocol REST
+API REST: respecte moins
 
 CRUD = CREATE / READ / UPDATE / DELETE
 
