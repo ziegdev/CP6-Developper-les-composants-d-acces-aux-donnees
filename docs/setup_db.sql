@@ -40,9 +40,9 @@ CREATE TABLE "card_has_label" (
 /* SEEDING */
 INSERT INTO "list" ("name") VALUES ('First list');
 
-INSERT INTO "card" ("name", "content", "color", "list_id")
-VALUES ('Carte 1', 'My first card', '#fff696', 1),
-    ('Carte 2', 'My second card', '#fff696', 1);
+INSERT INTO "card" ("content", "color", "list_id")
+VALUES ('My first card', '#fff696', 1),
+    ('My second card', '#fff696', 1);
 
 INSERT INTO "label" ("name", "color") VALUES ('Urgent', 'red');
 
